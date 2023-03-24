@@ -18,3 +18,6 @@ parser.add_argument('--save_dir', type=str,
 同样地，改好路径后，直接运行python 0927_add_clean_to_pt.py即可。
 
 运行1-3步骤后，即可生成完整的pt文件用于训练或者测试。
+
+# 4.附加项，多线程生成
+提供了thread1.py和thread2.py,这俩功能一样，只不过路径不太相同，可以根据需求更改里面的路径，多线程同时生成数据。
